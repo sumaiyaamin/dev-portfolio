@@ -14,6 +14,9 @@
 .text-primary{
   color: #FD6E0A;
 }
+.secondary-bg{
+  background-color: #FFF8F3;;
+}
 .dark-two{
   color: #474747;
 }
@@ -28,6 +31,17 @@
   padding: 18px 25px;
   border-radius: 5px;
   border: none;
+}
+
+.section-title{
+  color:#181818;
+  font-size: 35px;
+  font-weight: bold;
+  
+}
+.section-description{
+  font-size: 18px;
+  
 }
 /* nav styles */
 nav{
@@ -83,4 +97,34 @@ nav li a {
 }
 .banner-description{
   font-size: 18px;
+}
+
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* about section styles */
+
+.about{
+  
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 130px;
+  padding: 114px 169px 148px 144px;
+
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+  
+  
+}
+.item-title{
+  font-size: 20px;
+  color: #757575;
+}
+.item-description{
+  font-size: 20px;
+  font-weight: bold;
+  color: #474747;
 }
