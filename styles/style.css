@@ -196,5 +196,5 @@ footer input,footer textarea{
   display: block;
   padding: 10px 20px;
   background-color: white;
-
+  resize: none;
 }
