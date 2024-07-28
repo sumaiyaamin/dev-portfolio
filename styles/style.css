@@ -32,6 +32,16 @@
   border-radius: 5px;
   border: none;
 }
+.btn-primary-alt{
+ color: #FD6E0A;
+  background-color:white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 18px 25px;
+  border-radius: 5px;
+  border: 1px solid #FD6E0A;
+  margin-left: 30px;
+}
 
 .section-title{
   color:#181818;
@@ -120,10 +130,13 @@ main section{
   padding: 114px 169px 148px 144px;
 
 }
+.about-content{
+  background-color: white;
+  border: 1px solid black;
+}
 .about-items{
   display: flex;
   justify-content: space-around;
-  
   
 }
 .item-title{
@@ -148,4 +161,40 @@ main section{
 }
 .skill-description{
   font-weight: 400;
+}
+
+/* resume styles */
+.resume .btn{
+  margin: 50px 423px 0 470px;
+}
+.resume-container{
+  display: flex;
+  gap:71px;
+}
+
+/* contact section styles */
+
+.contact-container{
+  display: flex;
+  justify-content: space-around;
+  padding: 130px 230px 0 230px;
+}
+.contact-container .icon>a{
+ margin-right: 24px;
+}
+.contact-column{
+  text-align: left;
+  max-width: 50%;
+}
+
+footer input,footer textarea{
+  border: none;
+  width: 461px;
+  border-radius: 5px;
+  margin-bottom: 24px;
+  height: 64px;
+  display: block;
+  padding: 10px 20px;
+  background-color: white;
+
 }
